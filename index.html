@@ -8,21 +8,35 @@
 </head>
 
 <body>
-    <div id="google-search" class="search">
-        <div id="logo" class="search">
-            <img src="images/googlelogo_color_272x92dp.png" alt="Image of google logo">
-            </img>
+    <nav>
+        <ul class="navbar">
+            <li id="left-navbar"><a href="About">About</a></li>
+            <li id="left-navbar"><a href="Store">Store</a></li>
+        </ul>
+        <ul class="navbar">
+            <li id="right-navbar"><a href="Sign in" id=sign-in>Sign In</a></li>
+            <li id="right-navbar"><a href="Apps">Apps</a></li>
+            <li id="right-navbar"><a href="Images">Images</a></li>
+            <li id="right-navbar"><a href="Gmail">Gmail</a></li>
+        </ul>
+    </nav>
+    <section id="logo-and-search-box">
+        <div id="google-search" class="search">
+            <div id="logo" class="search">
+                <img src="images/googlelogo_color_272x92dp.png" alt="Image of google logo">
+                </img>
+            </div>
+            <form action="" class="search">
+                <div>
+                    <input type="text-field" id="text-field" class="search">
+                </div>
+                <div id="button-holder" class="search">
+                    <input type="submit" id="google" value="Google search" class="button">
+                    <input type="submit" id="lucky" value="I'm Feeling Lucky" class="button">
+                </div>
+            </form>
         </div>
-        <form action="" class="search">
-            <div>
-                <input type="text-field" id="text-field" class="search">
-            </div>
-            <div id="button-holder" class="search">
-                <input type="submit" id="google" value="Google search" class="button">
-                <input type="submit" id="lucky" value="I'm Feeling Lucky" class="button">
-            </div>
-        </form>
-    </div>
+    </section>
 
 </body>
 
